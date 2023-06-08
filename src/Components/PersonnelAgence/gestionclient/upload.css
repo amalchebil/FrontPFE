@@ -1,0 +1,59 @@
+.client-info-container {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.client-info {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.client-info p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.btn-sm {
+    margin-left: 50%;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #007ACC;
+    outline: 3px #007ACC solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .button svg path {
+    transition: 400ms;
+  }
+  
+  .button:hover {
+    background-color: transparent;
+  }
+  
+  .button:hover .text {
+    color: #007ACC;
+  }
+  
+  .button:hover svg path {
+    fill: #007ACC;
+  }
